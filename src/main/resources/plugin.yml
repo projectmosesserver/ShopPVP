@@ -1,0 +1,4 @@
+name: ShopPVP
+version: '${project.version}'
+main: info.ahaha.shoppvp.ShopPVP
+api-version: 1.17
