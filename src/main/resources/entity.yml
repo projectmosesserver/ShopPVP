@@ -1,0 +1,183 @@
+Level:
+  min: 15
+  max: 200
+
+Bound:
+  - Pattern1
+  - Pattern2
+  - Pattern3
+  - Pattern4
+  - Pattern5
+  - Pattern6
+  - Pattern7
+  - Pattern8
+
+Pattern1:
+  min: 60
+  max: 65
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE1
+    Skill: ZOMBIE1
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON1
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER1
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER1
+
+Pattern2:
+  min: 66
+  max: 71
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE2
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON2
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER2
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER2
+
+Pattern3:
+  min: 72
+  max: 99
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE3
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON3
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER3
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER3
+
+
+Pattern4:
+  min: 100
+  max: 109
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE4
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON4
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER4
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER4
+
+Pattern5:
+  min: 110
+  max: 120
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE5
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON5
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER5
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER5
+
+Pattern6:
+  min: 121
+  max: 129
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE6
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON6
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER6
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER6
+
+Pattern7:
+  min: 130
+  max: 139
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE7
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON7
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER7
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER7
+
+Pattern8:
+  min: 140
+  max: 150
+  Types:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+    - CREEPER
+  ZOMBIE:
+    Active: ATTACK
+    Effect: ZOMBIE8
+  SKELETON:
+    Active: SHOOT
+    Effect: SKELETON8
+  SPIDER:
+    Active: ATTACK
+    Effect: SPIDER8
+  CREEPER:
+    Active: EXPLODE
+    Effect: CREEPER8

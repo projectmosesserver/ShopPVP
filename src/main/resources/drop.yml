@@ -1,0 +1,1023 @@
+Level:
+  min: 15
+  max: 200
+Default:
+  - ZOMBIE
+  - SKELETON
+  - CREEPER
+  - SPIDER
+15:
+  Materials:
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 1
+16:
+  Materials:
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 2
+17:
+  Materials:
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 3
+18:
+  Materials:
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 4
+19:
+  Materials:
+    - NETHER_BRICK
+  EntityType: Default
+  NETHER_BRICK:
+    Amount: 1
+20:
+  Materials:
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+21:
+  Materials:
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+22:
+  Materials:
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 3
+  NETHER_BRICK:
+    Amount: 1
+23:
+  Materials:
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  BRICK:
+    Amount: 4
+  NETHER_BRICK:
+    Amount: 1
+24:
+  Materials:
+    - COAL
+  EntityType: Default
+  COAL:
+    Amount: 1
+25:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  BRICK:
+    Amount: 1
+26:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  BRICK:
+    Amount: 2
+27:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  BRICK:
+    Amount: 3
+28:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  BRICK:
+    Amount: 4
+29:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+30:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 1
+31:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 2
+32:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 3
+33:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 1
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 4
+34:
+  Materials:
+    - COAL
+  EntityType: Default
+  COAL:
+    Amount: 2
+35:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  BRICK:
+    Amount: 1
+36:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  BRICK:
+    Amount: 2
+37:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  BRICK:
+    Amount: 3
+38:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  BRICK:
+    Amount: 4
+39:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+40:
+  Materials:
+    - COAL
+    - BRICK
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 1
+41:
+  Materials:
+    - COAL
+    - BRICK
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 2
+42:
+  Materials:
+    - COAL
+    - BRICK
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 3
+43:
+  Materials:
+    - COAL
+    - BRICK
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 2
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 4
+44:
+  Materials:
+    - COAL
+  EntityType: Default
+  COAL:
+    Amount: 3
+45:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  BRICK:
+    Amount: 1
+46:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  BRICK:
+    Amount: 2
+47:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  BRICK:
+    Amount: 3
+48:
+  Materials:
+    - COAL
+    - BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  BRICK:
+    Amount: 4
+49:
+  Materials:
+    - COAL
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  NETHER_BRICK:
+    Amount: 1
+50:
+  Materials:
+    - COAL
+    - BRICK
+    - NETHER_BRICK
+  EntityType: Default
+  COAL:
+    Amount: 3
+  NETHER_BRICK:
+    Amount: 1
+  BRICK:
+    Amount: 1
+51:
+  Materials:
+    - IRON_INGOT
+  EntityType: Default
+  IRON_INGOT:
+    Amount: 1
+52:
+  Materials:
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 1
+53:
+  Materials:
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+54:
+  Materials:
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 3
+55:
+  Materials:
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 4
+56:
+  Materials:
+    - GOLD_INGOT
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+57:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 1
+58:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+59:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 3
+60:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 4
+61:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+62:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+63:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 4
+64:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 2
+  COAL:
+    Amount: 1
+65:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 2
+  COAL:
+    Amount: 3
+66:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 2
+  IRON_INGOT:
+    Amount: 1
+67:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 2
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+68:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 2
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 4
+69:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 3
+  COAL:
+    Amount: 1
+70:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 3
+  COAL:
+    Amount: 3
+71:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 3
+  IRON_INGOT:
+    Amount: 1
+72:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 3
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 3
+73:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 4
+  COAL:
+    Amount: 1
+74:
+  Materials:
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 4
+  COAL:
+    Amount: 4
+75:
+  Materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  GOLD_INGOT:
+    Amount: 4
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+76:
+  Materials:
+    - DIAMOND
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+77:
+  Materials:
+    - DIAMOND
+    - COAL
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  COAL:
+    Amount: 3
+78:
+  Materials:
+    - DIAMOND
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 1
+79:
+  Materials:
+    - DIAMOND
+    - IRON_INGOT
+    - COAL
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 4
+80:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+    - COAL
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+  COAL:
+    Amount: 2
+81:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+82:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+83:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+  IRON_INGOT:
+    Amount: 1
+84:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+85:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+  IRON_INGOT:
+    Amount: 1
+86:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+87:
+  Materials:
+    - DIAMOND
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+  IRON_INGOT:
+    Amount: 1
+88:
+  Materials:
+    - EMERALD
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+89:
+  Materials:
+    - EMERALD
+    - IRON_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+90:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+91:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+92:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+93:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+94:
+  Materials:
+    - EMERALD
+    - DIAMOND
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+95:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+96:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+97:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+98:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+99:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+    - IRON_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 1
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+  IRON_INGOT:
+    Amount: 1
+100:
+  Materials:
+    - EMERALD
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+101:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  GOLD_INGOT:
+    Amount: 1
+102:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  GOLD_INGOT:
+    Amount: 2
+103:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  GOLD_INGOT:
+    Amount: 3
+104:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  GOLD_INGOT:
+    Amount: 4
+105:
+  Materials:
+    - EMERALD
+    - DIAMOND
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  DIAMOND:
+    Amount: 1
+106:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+107:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+108:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+109:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 2
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+110:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  GOLD_INGOT:
+    Amount: 1
+111:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  GOLD_INGOT:
+    Amount: 2
+112:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  GOLD_INGOT:
+    Amount: 3
+113:
+  Materials:
+    - EMERALD
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  GOLD_INGOT:
+    Amount: 4
+114:
+  Materials:
+    - EMERALD
+    - DIAMOND
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  DIAMOND:
+    Amount: 1
+115:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 1
+116:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 2
+117:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 3
+118:
+  Materials:
+    - EMERALD
+    - DIAMOND
+    - GOLD_INGOT
+  EntityType: Default
+  EMERALD:
+    Amount: 3
+  DIAMOND:
+    Amount: 1
+  GOLD_INGOT:
+    Amount: 4
+119:
+  Materials:
+    - EMERALD
+  EntityType: Default
+  EMERALD:
+    Amount: 4
+
+
+

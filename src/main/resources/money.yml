@@ -1,0 +1,41 @@
+Material:
+  - BRICK
+  - NETHER_BRICK
+  - COAL
+  - IRON_INGOT
+  - GOLD_INGOT
+  - DIAMOND
+  - EMERALD
+  - NETHERITE_INGOT
+  - END_CRYSTAL
+  - NETHER_STAR
+
+BRICK:
+  Money: 1
+
+NETHER_BRICK:
+  Money: 5
+
+COAL:
+  Money: 10
+
+IRON_INGOT:
+  Money: 50
+
+GOLD_INGOT:
+  Money: 100
+
+DIAMOND:
+  Money: 500
+
+EMERALD:
+  Money: 1000
+
+NETHERITE_INGOT:
+  Money: 5000
+
+END_CRYSTAL:
+  Money: 10000
+
+NETHER_STAR:
+  Money: 50000

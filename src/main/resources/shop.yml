@@ -1,0 +1,161 @@
+Shops:
+  - WeaponShop
+  - ButterWeaponShop
+  - ArmorShop
+  - ButterArmorShop
+  - ItemShop
+  - ButterItemShop
+
+WeponShop:
+  NPCName: "Weapon Shop"
+  ItemSize: 30
+  1:
+    Material: WOODEN_SWORD
+    Type: NORMAL
+    Money: 150
+    Durability: MAX
+  2:
+    Material: WOODEN_SWORD
+    Type: NORMAL
+    Money: 90
+    Durability: HALF
+  3:
+    Material: STONE_SWORD
+    Type: NORMAL
+    Money: 450
+    Durability: MAX
+  4:
+    Material: STONE_SWORD
+    Type: NORMAL
+    Money: 270
+    Durability: HALF
+  5:
+    Material: IRON_SWORD
+    Type: NORMAL
+    Money: 600
+    Durability: MAX
+  6:
+    Material: IRON_SWORD
+    Type: NORMAL
+    Money: 360
+    Durability: HALF
+  7:
+    Material: WOODEN_PICKAXE
+    Type: NORMAL
+    Money: 80
+    Durability: MAX
+  8:
+    Material: WOODEN_PICKAXE
+    Type: NORMAL
+    Money: 48
+    Durability: HALF
+  9:
+    Material: STONE_PICKAXE
+    Type: NORMAL
+    Money: 120
+    Durability: MAX
+  10:
+    Material: STONE_PICKAXE
+    Type: NORMAL
+    Money: 72
+    Durability: HALF
+  11:
+    Material: IRON_PICKAXE
+    Type: NORMAL
+    Money: 200
+    Durability: MAX
+  12:
+    Material: IRON_PICKAXE
+    Type: NORMAL
+    Money: 120
+    Durability: HALF
+  13:
+    Material: WOODEN_SHOVEL
+    Type: NORMAL
+    Money: 40
+    Durability: MAX
+  14:
+    Material: WOODEN_SHOVEL
+    Type: NORMAL
+    Money: 24
+    Durability: HALF
+  15:
+    Material: STONE_SHOVEL
+    Type: NORMAL
+    Money: 80
+    Durability: MAX
+  16:
+    Material: STONE_SHOVEL
+    Type: NORMAL
+    Money: 48
+    Durability: HALF
+  17:
+    Material: IRON_SHOVEL
+    Type: NORMAL
+    Money: 150
+    Durability: MAX
+  18:
+    Material: IRON_SHOVEL
+    Type: NORMAL
+    Money: 90
+    Durability: HALF
+  19:
+    Material: WOODEN_HOE
+    Type: NORMAL
+    Money: 40
+    Durability: MAX
+  20:
+    Material: WOODEN_HOE
+    Type: NORMAL
+    Money: 24
+    Durability: HALF
+  21:
+    Material: STONE_HOE
+    Type: NORMAL
+    Money: 80
+    Durability: MAX
+  22:
+    Material: STONE_HOE
+    Type: NORMAL
+    Money: 48
+    Durability: HALF
+  23:
+    Material: IRON_HOE
+    Type: NORMAL
+    Money: 150
+    Durability: MAX
+  24:
+    Material: IRON_HOE
+    Type: NORMAL
+    Money: 90
+    Durability: HALF
+  25:
+    Material: WOODEN_AXE
+    Type: NORMAL
+    Money: 50
+    Durability: MAX
+  26:
+    Material: WOODEN_AXE
+    Type: NORMAL
+    Money: 30
+    Durability: HALF
+  27:
+    Material: STONE_AXE
+    Type: NORMAL
+    Money: 100
+    Durability: MAX
+  28:
+    Material: STONE_AXE
+    Type: NORMAL
+    Money: 60
+    Durability: HALF
+  29:
+    Material: IRON_AXE
+    Type: NORMAL
+    Money: 350
+    Durability: MAX
+  30:
+    Material: IRON_AXE
+    Type: NORMAL
+    Money: 210
+    Durability: HALF

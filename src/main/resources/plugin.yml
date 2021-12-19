@@ -2,3 +2,10 @@ name: ShopPVP
 version: '${project.version}'
 main: info.ahaha.shoppvp.ShopPVP
 api-version: 1.17
+depend:
+  - MosesMoney
+
+commands:
+  shoppvp:
+    aliases:
+      - spvp

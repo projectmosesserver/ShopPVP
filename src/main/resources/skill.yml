@@ -1,0 +1,39 @@
+Skills:
+  - FLAME1
+  - FLAME2
+  - FLAME3
+  - ZOMBIE1
+
+FLAME1:
+  Skill:
+    - Flame
+  Flame:
+    Color: 0xdc143c
+    Time: 5
+    Range: 3
+
+FLAME2:
+  Skill:
+    - Flame
+  Flame:
+    Color: 0xdc143c
+    Time: 5
+    Range: 5
+
+FLAME3:
+  Skill:
+    - Flame
+  Flame:
+    Color: 0xdc143c
+    Time: 5
+    Range: 7
+
+ZOMBIE1:
+  Skill:
+    - ThrowTNT
+    - Revival
+  ThrowTNT:
+    Damage: 10
+    Time: 3
+  Revival:
+    Num: 3

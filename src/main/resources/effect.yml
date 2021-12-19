@@ -1,0 +1,136 @@
+Effects:
+  - ZOMBIE1
+  - ZOMBIE2
+  - ZOMBIE3
+  - ZOMBIE4
+  - ZOMBIE5
+  - ZOMBIE6
+  - ZOMBIE7
+  - ZOMBIE8
+  - SKELETON1
+  - SKELETON2
+  - SKELETON3
+  - SKELETON4
+  - SKELETON5
+  - SKELETON6
+  - SKELETON7
+  - SKELETON8
+  - SPIDER1
+  - SPIDER2
+  - SPIDER3
+  - SPIDER4
+  - SPIDER5
+  - SPIDER6
+  - SPIDER7
+  - SPIDER8
+  - CREEPER1
+  - CREEPER2
+  - CREEPER3
+  - CREEPER4
+  - CREEPER5
+  - CREEPER6
+  - CREEPER7
+  - CREEPER8
+  - FLOATING1
+  - FLOATING2
+  - FLOATING3
+  - POISON1
+  - POISON2
+  - POISON3
+  - WITHER1
+  - WITHER2
+  - WITHER3
+
+
+FLOATING1:
+  Active: USE
+  Effect:
+    - LEVITATION
+  LEVITATION:
+    Color: 0xb0c4de
+    Level: 1
+    Sec: 5
+
+FLOATING2:
+  Active: USE
+  Effect:
+    - LEVITATION
+  LEVITATION:
+    Color: 0xb0c4de
+    Level: 2
+    Sec: 5
+
+FLOATING3:
+  Active: USE
+  Effect:
+    - LEVITATION
+  LEVITATION:
+    Color: 0xb0c4de
+  Level: 3
+  Sec: 5
+
+WITHER1:
+  Active: USE
+  Effect:
+    - WITHER
+  WITHER:
+    Color: 0x000000
+    Level: 1
+    Sec: 5
+
+WITHER2:
+  Active: USE
+  Effect:
+    - WITHER
+  WITHER:
+    Color: 0x000000
+    Level: 2
+    Sec: 5
+
+WITHER3:
+  Active: USE
+  Effect:
+    - WITHER
+  WITHER:
+    Color: 0x000000
+    Level: 3
+    Sec: 5
+
+POISON1:
+  Active: USE
+  Effect:
+    - POISON
+  PISON:
+    Color: 0x006400
+    Level: 1
+    Sec: 5
+
+POISON2:
+  Active: USE
+  Effect:
+    - POISON
+  PISON:
+    Color: 0x006400
+    Level: 2
+    Sec: 5
+
+POISON3:
+  Active: USE
+  Effect:
+    - POISON
+  PISON:
+    Color: 0x006400
+    Level: 3
+    Sec: 5
+
+ZOMBIE1:
+  Active: ATTACK
+  Effect:
+    - POISON
+    - LEVITATION
+  POISON:
+    Sec: 5
+    Level: 1
+  LEVITATION:
+    Sec: 5
+    Level: 1
