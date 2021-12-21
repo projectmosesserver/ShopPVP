@@ -1,3 +1,17 @@
+#
+#   §0 / Black  §1 / DarkBlue
+#   §2 / DarkGreen  §3 / DarkAqua
+#   §4 / DarkRed  §5 / DarkPurple
+#   §6 / Gold  §7 / Gray
+#   §8 / DarkGray  §9 / Blue
+#   §a / Green  §b / Aqua
+#   §c / Red  §d / LightPurple
+#   §e / Yellow  §f / White
+#
+#   §k / EnchantTable  §l / Bold
+#   §o / Italic  §r / Reset
+#
+
 Items:
   - WeaknessPowderLv1
   - WeaknessPowderLv2
@@ -14,99 +28,99 @@ Items:
   - DragonBreath
 
 WeaknessPowderLv1:
-  Name: "Weakness Powder Lv1"
-  Color: LIGHT_PURPLE
+  Name: "§dWeakness Powder Lv1"
   Material: WITHER_ROSE
   Type: WITHER1
-  Explanation: 3×3の範囲に居るモブをウィザー状態にする
+  Explanation:
+    - 3×3の範囲に居るモブをウィザー状態にする
   Range: 3
 
 WeaknessPowderLv2:
-  Name: "Weakness Powder Lv2"
-  Color: LIGHT_PURPLE
+  Name: "§dWeakness Powder Lv2"
   Material: WITHER_ROSE
   Type: WITHER2
-  Explanation: 5×5の範囲に居るモブをウィザー状態にする
+  Explanation:
+    - 5×5の範囲に居るモブをウィザー状態にする
   Range: 5
 
 WeaknessPowderLv3:
-  Name: "Weakness Powder Lv3"
-  Color: LIGHT_PURPLE
+  Name: "§dWeakness Powder Lv3"
   Material: WITHER_ROSE
   Type: WITHER3
-  Explanation: 7×7の範囲に居るモブをウィザー状態にする
+  Explanation:
+    - 7×7の範囲に居るモブをウィザー状態にする
   Range: 7
 
 PoisonPowderLv1:
-  Name: "Poison Powder Lv1"
-  Color: DARK_PURPLE
+  Name: "§5Poison Powder Lv1"
   Material: SPIDER_EYE
   Type: POISON1
-  Explanation: 3×3の範囲に居るモブを毒状態にする
+  Explanation:
+    - 3×3の範囲に居るモブを毒状態にする
   Range: 3
 
 PoisonPowderLv2:
-  Name: "Poison Powder Lv2"
-  Color: DARK_PURPLE
+  Name: "§5Poison Powder Lv2"
   Material: SPIDER_EYE
   Type: POISON2
-  Explanation: 5×5の範囲に居るモブを毒状態にする
+  Explanation:
+    - 5×5の範囲に居るモブを毒状態にする
   Range: 5
 
 PoisonPowderLv3:
-  Name: "Poison Powder Lv3"
-  Color: DARK_PURPLE
+  Name: "§5Poison Powder Lv3"
   Material: SPIDER_EYE
   Type: POISON3
-  Explanation: 7×7の範囲に居るモブを毒状態にする
+  Explanation:
+    - 7×7の範囲に居るモブを毒状態にする
   Range: 7
 
 FloatingPowderLv1:
-  Name: "Floating Powder Lv1"
-  Color: AQUA
+  Name: "§bFloating Powder Lv1"
   Material: LIGHT_BLUE_DYE
   Type: FLOATING1
-  Explanation: 3×3の範囲に居るモブを浮遊状態にする
+  Explanation:
+    - 3×3の範囲に居るモブを浮遊状態にする
   Range: 3
 
 FloatingPowderLv2:
-  Name: "Floating Powder Lv2"
-  Color: AQUA
+  Name: "§bFloating Powder Lv2"
   Material: LIGHT_BLUE_DYE
   Type: FLOATING2
-  Explanation: 5×5の範囲に居るモブを浮遊状態にする
+  Explanation:
+    - 5×5の範囲に居るモブを浮遊状態にする
   Range: 5
 
 FloatingPowderLv3:
-  Name: "Floating Powder Lv3"
-  Color: AQUA
+  Name: "§bFloating Powder Lv3"
   Material: LIGHT_BLUE_DYE
   Type: FLOATING3
-  Explanation: 7×7の範囲に居るモブを浮遊状態にする
+  Explanation:
+    - 7×7の範囲に居るモブを浮遊状態にする
   Range: 7
 
 FlamePowderLv1:
-  Name: "Flame Powder Lv1"
-  Color: RED
+  Name: "§cFlame Powder Lv1"
   Material: BLAZE_POWDER
   Type: FLAME1
-  Explanation: 3×3の範囲に居るモブを延焼させる
+  Explanation:
+    - 3×3の範囲に居るモブを延焼させる
   Range: 3
 
 FlamePowderLv2:
-  Name: "Flame Powder Lv2"
-  Color: RED
+  Name: "§cFlame Powder Lv2"
   Material: BLAZE_POWDER
   Type: FLAME2
-  Explanation: 5×5の範囲に居るモブを延焼させる
+  Explanation:
+    - 5×5の範囲に居るモブを延焼させる
   Range: 5
 
 FlamePowderLv3:
-  Name: "Flame Powder Lv3"
-  Color: RED
+  Name: "§cFlame Powder Lv3"
   Material: BLAZE_POWDER
   Type: FLAME3
-  Explanation: 7×7の範囲に居るモブを延焼させる
+  Explanation:
+    - 7×7の範囲に居るモブを延焼させる
   Range: 7
 
 

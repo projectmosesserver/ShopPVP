@@ -6,11 +6,17 @@ import info.ahaha.shoppvp.util.ParticleUtil;
 import org.bukkit.Color;
 import org.bukkit.Particle;
 import org.bukkit.attribute.Attribute;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 public class Revival implements Skill {
 
     int num;
+    public Map<UUID,Integer>nums = new HashMap<>();
 
     public Revival(int num) {
         this.num = num;
@@ -41,19 +47,24 @@ public class Revival implements Skill {
         return ActiveType.LOOP;
     }
 
-    public void subtractionNum() {
-        if (num-- <= 0) {
-            num = 0;
-        } else this.num--;
+    public void putNums(Entity entity){
+        nums.put(entity.getUniqueId(),getNum());
     }
-    public boolean isRevival(){
-        return num > 0;
+
+    public void subtractionNum(Entity entity) {
+        int mapnum = nums.get(entity.getUniqueId());
+        nums.put(entity.getUniqueId(), Math.max(mapnum - 1, 0));
     }
+    public boolean isRevival(Entity entity){
+        int mapnum = nums.get(entity.getUniqueId());
+        return mapnum > 0;
+    }
+
 
     @Override
     public void skillActive(LivingEntity user) {
             user.setHealth(user.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue());
-            subtractionNum();
+            subtractionNum(user);
             ParticleUtil.createCircle(user.getLocation(),1, Particle.TOTEM,Particle.REDSTONE, Color.WHITE);
     }
 }

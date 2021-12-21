@@ -24,7 +24,7 @@ public class ItemData {
 
     public static List<ItemData> data = new ArrayList<>();
 
-    public ItemData(ItemStack item, String id, SkillType type, int range) {
+    public ItemData(ItemStack item, String id, int range) {
         this.item = item;
         this.id = id;
         this.range = range;
@@ -65,7 +65,6 @@ public class ItemData {
             if (data.getId().equalsIgnoreCase(getID())) {
                 for (Skill skill : data.getSkills()) {
                     color = data.getColor();
-                    getLogger().info(data.getId());
                     skill.skillActive(player);
                 }
             }

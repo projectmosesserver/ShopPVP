@@ -44,6 +44,7 @@ Effects:
 
 FLOATING1:
   Active: USE
+  Random: false
   Effect:
     - LEVITATION
   LEVITATION:
@@ -53,6 +54,7 @@ FLOATING1:
 
 FLOATING2:
   Active: USE
+  Random: false
   Effect:
     - LEVITATION
   LEVITATION:
@@ -62,6 +64,7 @@ FLOATING2:
 
 FLOATING3:
   Active: USE
+  Random: false
   Effect:
     - LEVITATION
   LEVITATION:
@@ -71,6 +74,7 @@ FLOATING3:
 
 WITHER1:
   Active: USE
+  Random: false
   Effect:
     - WITHER
   WITHER:
@@ -80,6 +84,7 @@ WITHER1:
 
 WITHER2:
   Active: USE
+  Random: false
   Effect:
     - WITHER
   WITHER:
@@ -89,6 +94,7 @@ WITHER2:
 
 WITHER3:
   Active: USE
+  Random: false
   Effect:
     - WITHER
   WITHER:
@@ -98,6 +104,7 @@ WITHER3:
 
 POISON1:
   Active: USE
+  Random: false
   Effect:
     - POISON
   PISON:
@@ -107,6 +114,7 @@ POISON1:
 
 POISON2:
   Active: USE
+  Random: false
   Effect:
     - POISON
   PISON:
@@ -116,6 +124,7 @@ POISON2:
 
 POISON3:
   Active: USE
+  Random: false
   Effect:
     - POISON
   PISON:
@@ -125,6 +134,11 @@ POISON3:
 
 ZOMBIE1:
   Active: ATTACK
+  Random: true
+  KeepEffect:
+    - SPEED
+  SPEED:
+    Level: 2
   Effect:
     - POISON
     - LEVITATION

@@ -16,6 +16,7 @@ import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Zombie;
+import org.bukkit.potion.PotionEffect;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +42,7 @@ public class Cmd implements CommandExecutor, TabCompleter {
         }
         if (args[0].equalsIgnoreCase("spawn")){
             Zombie zombie = player.getWorld().spawn(player.getLocation(),Zombie.class);
-            zombie.setCustomName("Lv.15 "+zombie.getName());
+            zombie.setCustomName("Lv.18 : "+zombie.getName());
             zombie.setCustomNameVisible(true);
             SkillData skillData = null;
             EffectData effectData = null;
@@ -51,16 +52,21 @@ public class Cmd implements CommandExecutor, TabCompleter {
                 }
             }
             for (EffectData data : EffectData.data){
+
                 if (data.getID().equalsIgnoreCase("ZOMBIE1")){
+                    if (data.getKeepEffects() != null){
+                        for (PotionEffect effect : data.getKeepEffects()){
+                            zombie.addPotionEffect(effect);
+                        }
+                    }
                     effectData = data;
                 }
             }
             if (skillData != null && effectData != null) {
-                EntityData data1 = new EntityData(zombie.getType(), 15, effectData, skillData);
+                EntityData data1 = new EntityData(zombie.getType(), 18, effectData, skillData);
                 EntityData.data.add(data1);
             }
         }
-        /*;*/
 
         return true;
     }

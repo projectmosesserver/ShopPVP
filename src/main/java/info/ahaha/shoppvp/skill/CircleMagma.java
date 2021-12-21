@@ -70,6 +70,6 @@ public class CircleMagma implements Skill {
                     }
                 }
             }
-        }.runTaskLater(ShopPVP.plugin,10);
+        }.runTaskLater(ShopPVP.plugin,2);
     }
 }

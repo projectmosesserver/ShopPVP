@@ -7,6 +7,7 @@ import info.ahaha.shoppvp.SkillType;
 import info.ahaha.shoppvp.data.DropData;
 import info.ahaha.shoppvp.data.EntityData;
 import info.ahaha.shoppvp.data.SkillData;
+import info.ahaha.shoppvp.skill.CircleMagma;
 import info.ahaha.shoppvp.skill.Revival;
 import info.ahaha.shoppvp.util.ParticleUtil;
 import org.bukkit.Color;
@@ -37,34 +38,6 @@ public class EntityDeathListener implements Listener {
                         e.getEntity().getWorld().dropItemNaturally(e.getEntity().getLocation(), item);
                     }
                     return;
-                }
-            }
-        }
-    }
-
-    @EventHandler
-    public void onDeath(EntityDamageEvent e) {
-        if (e.getEntity().getCustomName() == null) return;
-        int level = 0;
-        if (e.getEntity().getCustomName().contains("Lv.")) {
-            level = Integer.parseInt(e.getEntity().getCustomName().split("Lv.")[1].split(" ")[0]);
-        }
-        for (EntityData data : EntityData.data) {
-            if (e.getEntity().getType() == data.getType()) {
-                if (data.getLevel() == level) {
-                    for (Skill skill : data.getSkillData().getSkills()) {
-                        if (skill instanceof Revival) {
-                            Revival revival = (Revival) skill;
-                            if (revival.isRevival()) {
-                                LivingEntity entity = (LivingEntity) e.getEntity();
-                                if (entity.getHealth() - e.getDamage() <= 0) {
-                                    e.setDamage(0);
-                                    revival.skillActive(entity);
-                                    return;
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }
