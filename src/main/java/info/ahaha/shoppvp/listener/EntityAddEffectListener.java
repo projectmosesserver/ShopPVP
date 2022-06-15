@@ -1,6 +1,7 @@
 package info.ahaha.shoppvp.listener;
 
 import info.ahaha.shoppvp.ActiveType;
+import info.ahaha.shoppvp.ShopPVP;
 import info.ahaha.shoppvp.Skill;
 import info.ahaha.shoppvp.data.EntityData;
 import info.ahaha.shoppvp.data.SkillData;
@@ -9,19 +10,22 @@ import info.ahaha.shoppvp.skill.Revival;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
+import org.bukkit.Location;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.scheduler.BukkitRunnable;
+import org.bukkit.util.Vector;
 
 import static org.bukkit.Bukkit.getLogger;
+import static org.bukkit.Bukkit.getServer;
 
 public class EntityAddEffectListener implements Listener {
 
     @EventHandler
     public void addEffect(EntityDamageByEntityEvent e) {
-
         for (EntityData data : EntityData.data) {
             int level = 0;
             if (e.getDamager().getType() == data.getType()) {
@@ -47,7 +51,7 @@ public class EntityAddEffectListener implements Listener {
             }
             if (e.getDamager() instanceof Arrow) {
                 Arrow arrow = (Arrow) e.getDamager();
-                if (arrow.getShooter() instanceof Skeleton ) {
+                if (arrow.getShooter() instanceof Skeleton) {
                     Skeleton skeleton = (Skeleton) arrow.getShooter();
                     if (skeleton.getCustomName() != null) {
                         if (skeleton.getCustomName().contains("Lv.")) {
@@ -130,7 +134,6 @@ public class EntityAddEffectListener implements Listener {
                     player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(
                             ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + entity.getName() + ChatColor.GRAY + " | " + ChatColor.GREEN + "" + ChatColor.BOLD + healths + " / " + max));
                 } else {
-
                     player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(
                             ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + entity.getCustomName() + ChatColor.GRAY + " | " + ChatColor.GREEN + "" + ChatColor.BOLD + healths + " / " + max));
 
@@ -161,7 +164,7 @@ public class EntityAddEffectListener implements Listener {
                                 if (revival.nums.get(entity.getUniqueId()) <= 0) {
                                     Player player = (Player) e.getDamager();
                                     player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(
-                                            ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + entity.getCustomName() + ChatColor.GRAY + " | " + ChatColor.GREEN + "" + ChatColor.BOLD + 0 + " / " + (int)entity.getMaxHealth()));
+                                            ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + entity.getCustomName() + ChatColor.GRAY + " | " + ChatColor.GREEN + "" + ChatColor.BOLD + 0 + " / " + (int) entity.getMaxHealth()));
                                     entity.damage(entity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue());
                                     revival.nums.remove(entity.getUniqueId());
                                     return;

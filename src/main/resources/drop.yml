@@ -6,6 +6,27 @@ Default:
   - SKELETON
   - CREEPER
   - SPIDER
+LevelBound:
+  Bound1:
+    min: 151
+    max: 170
+  Bound2:
+    min: 171
+    max: 200
+  Bound3:
+    min: 190
+    max: 200
+BoundEntity:
+  - PIGLIN
+  - PIGLIN_BRUTE
+  - ZOMBIFIED_PIGLIN
+  - HOGLIN
+  - ZOGLIN
+  - WITHER_SKELETON
+  - GHAST
+  - MAGMA_CUBE
+  - ENDERMAN
+
 15:
   Materials:
     - BRICK
@@ -1018,6 +1039,105 @@ Default:
   EntityType: Default
   EMERALD:
     Amount: 4
+
+PIGLIN1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: PIGLIN
+  NETHERITE_INGOT:
+    Amount: 2
+PIGLIN2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: PIGLIN
+  NETHERITE_INGOT:
+    Amount: 4
+ZOMBIFIED_PIGLIN1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: ZOMBIFIED_PIGLIN
+  NETHERITE_INGOT:
+    Amount: 2
+ZOMBIFIED_PIGLIN2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: ZOMBIFIED_PIGLIN
+  NETHERITE_INGOT:
+    Amount: 4
+PIGLIN_BRUTE1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: PIGLIN_BRUTE
+  NETHERITE_INGOT:
+    Amount: 2
+PIGLIN_BRUTE2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: PIGLIN_BRUTE
+  NETHERITE_INGOT:
+    Amount: 4
+HOGLIN1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: HOGLIN
+  NETHERITE_INGOT:
+    Amount: 2
+HOGLIN2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: HOGLIN
+  NETHERITE_INGOT:
+    Amount: 4
+ZOGLIN1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: ZOGLIN
+  NETHERITE_INGOT:
+    Amount: 2
+ZOGLIN2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: ZOGLIN
+  NETHERITE_INGOT:
+    Amount: 4
+WITHER_SKELETON1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: WITHER_SKELETON
+  NETHERITE_INGOT:
+    Amount: 2
+WITHER_SKELETON2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: WITHER_SKELETON
+  NETHERITE_INGOT:
+    Amount: 4
+GHAST1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: GHAST
+  NETHERITE_INGOT:
+    Amount: 2
+GHAST2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: GHAST
+  NETHERITE_INGOT:
+    Amount: 4
+MAGMA_CUBE1:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: MAGMA_CUBE
+  NETHERITE_INGOT:
+    Amount: 2
+MAGMA_CUBE2:
+  Materials:
+    - NETHERITE_INGOT
+  EntityType: MAGMA_CUBE
+  NETHERITE_INGOT:
+    Amount: 4
+
+
 
 
 

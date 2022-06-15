@@ -1,15 +1,20 @@
 package info.ahaha.shoppvp.listener;
 
+import info.ahaha.shoppvp.ShopPVP;
 import info.ahaha.shoppvp.data.SpawnerLoc;
+import info.ahaha.shoppvp.skill.ThrowSplash;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.EntityType;
+import org.bukkit.entity.Ghast;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Zombie;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.bukkit.event.entity.SpawnerSpawnEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.Random;
 
@@ -17,7 +22,8 @@ public class EntitySpawnListener implements Listener {
 
     @EventHandler
     public void onSpawn(CreatureSpawnEvent e) {
-        if (e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.SPAWNER ||
+
+        /*if (e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.SPAWNER ||
                 e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.COMMAND ||
                 e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.CUSTOM) {
             if (e.getEntity().getWorld().getTime() < 12000) {
@@ -25,7 +31,7 @@ public class EntitySpawnListener implements Listener {
             }
         } else {
             e.setCancelled(true);
-        }
+        }*/
     }
 
     @EventHandler
@@ -58,6 +64,23 @@ public class EntitySpawnListener implements Listener {
                 } else {
                     entity.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(
                             entity.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).getBaseValue() + (level * 0.05));
+                }
+                if (entity instanceof Ghast) {
+                    new BukkitRunnable() {
+                        int i = 0;
+
+                        @Override
+                        public void run() {
+                            if (entity.isDead()) {
+                                this.cancel();
+                            }
+                            if (i >= 120) {
+                                entity.remove();
+                                this.cancel();
+                            }
+                            i++;
+                        }
+                    }.runTaskTimer(ShopPVP.plugin, 0, 20);
                 }
             }
         }

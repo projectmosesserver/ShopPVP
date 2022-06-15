@@ -3,6 +3,8 @@ Skills:
   - FLAME2
   - FLAME3
   - ZOMBIE1
+  - GHAST1
+  - GHAST2
 
 FLAME1:
   Skill:
@@ -37,3 +39,6 @@ ZOMBIE1:
     Time: 3
   Revival:
     Num: 3
+GHAST1:
+  Skill:
+    -
